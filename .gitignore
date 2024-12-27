@@ -1,0 +1,14 @@
+# Ignore l'environnement virtuel
+envb/
+model_resnet_finetuned.h5
+# Ignore les fichiers Python compilés
+#__pycache__/
+#*.pyc
+
+# Ignore les fichiers d'IDE spécifiques
+.vscode/
+.idea/
+
+# Ignore les fichiers système (ex. : macOS, Windows)
+.DS_Store
+Thumbs.db
