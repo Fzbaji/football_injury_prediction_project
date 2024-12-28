@@ -76,6 +76,7 @@ Voici une capture d'écran de l'interface :
    :align: center
 
 ---
+
 .. image:: images/interface3.png
    :width: 80%
    :alt: Interface Streamlit pour la prédiction des images
