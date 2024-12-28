@@ -86,7 +86,7 @@ Avancement actuel
 
 **Modèle d'analyse et classification d'image**
 
-- **Étape 1 (En cours) :** Collecte et nettoyage des données.
-- **Étape 2 (A venir) :** Développement de modèles d’apprentissage automatique CNN
-- **Étape 3 (A venir) :** Validation du modèle sur des données réelles.
-- **Étape 4 (A venir) :** Développement d'une interface utilisateur conviviale
+- **Étape 1 (Terminée) :** Collecte et nettoyage des données.
+- **Étape 2 (Terminée) :** Développement de modèles d’apprentissage automatique CNN
+- **Étape 3 (Terminée) :** Validation du modèle sur des données réelles.
+- **Étape 4 (Terminée) :** Développement d'une interface utilisateur conviviale
