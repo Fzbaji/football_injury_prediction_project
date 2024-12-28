@@ -6,8 +6,8 @@ from PIL import Image
 import tensorflow as tf
 
 # Charger les modèles pré-entraînés
-tabular_model = joblib.load(r'C:\Users\Dell\Desktop\Projet_IA\modele4_tab.h5')  # Modèle tabulaire
-image_model = tf.keras.models.load_model(r'C:\Users\Dell\Desktop\Projet_IA\modelcnn.h5')  # Modèle CNN pour la classification des blessures
+tabular_model = joblib.load(r'C:\Users\Dell\Documents\GitHub\football_injury_prediction_project\modele4_tab.h5')  # Modèle tabulaire
+image_model = tf.keras.models.load_model(r'C:\Users\Dell\Documents\GitHub\football_injury_prediction_project\modelcnn.h5')  # Modèle CNN pour la classification des blessures
 
 # Définir une fonction pour prédire avec le modèle CNN
 def predire_type_blessure(image):
