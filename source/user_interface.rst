@@ -77,7 +77,7 @@ Voici une capture d'écran de l'interface :
 
 ---
 
-.. image:: images/interface3.png
+.. image:: images/str_interface3.jpg
    :width: 80%
    :alt: Interface Streamlit pour la prédiction des images
    :align: center
