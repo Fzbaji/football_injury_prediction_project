@@ -17,8 +17,11 @@ Prétraitement des Données
 
 Dans cette section, nous décrivons le processus de prétraitement appliqué aux données synthétiques et aux images pour garantir leur qualité et leur adaptabilité aux modèles d'apprentissage automatique. Ce processus inclut la gestion des valeurs manquantes, l’encodage des variables catégoriques, la séparation des ensembles d'entraînement et de test, le Redimensionnement, ainsi que l’équilibrage des classes.
 
-Détection et Gestion des Valeurs Manquantes
--------------------------------------------
+Donnés tabulaires
+-----------------
+
+**Détection et Gestion des Valeurs Manquantes**
+
 
 Les valeurs manquantes ont été détectées et traitées comme suit :
 
@@ -32,8 +35,7 @@ Les valeurs manquantes ont été détectées et traitées comme suit :
 
 L'objectif était d'assurer la qualité des données en éliminant les observations incomplètes, minimisant ainsi l’impact sur les performances du modèle.
 
-Encodage des Variables Catégoriques
------------------------------------
+**Encodage des Variables Catégoriques**
 
 Pour rendre les données exploitables par les algorithmes d’apprentissage automatique, les variables catégoriques ont été encodées en variables numériques :
 
@@ -43,8 +45,7 @@ Pour rendre les données exploitables par les algorithmes d’apprentissage auto
     data = pd.get_dummies(data, drop_first=True)
 
 
-Séparation des Features et du Label
------------------------------------
+**Séparation des Features et du Label**
 
 Les données ont ensuite été séparées en caractéristiques (*features*) et en labels (*target*) :
 
@@ -54,8 +55,8 @@ Les données ont ensuite été séparées en caractéristiques (*features*) et e
     X = data.drop(columns=['Blessure musculaire'])
     y = data['Blessure musculaire']
 
-Séparation des Ensembles d'Entraînement et de Test
----------------------------------------------------
+**Séparation des Ensembles d'Entraînement et de Test**
+
 
 Un ensemble d’entraînement (80 % des données) et un ensemble de test (20 % des données) ont été créés pour évaluer les performances des modèles :
 
@@ -64,8 +65,7 @@ Un ensemble d’entraînement (80 % des données) et un ensemble de test (20 % d
     # Séparer les données en ensembles d'entraînement et de test
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-Équilibrage des Classes
------------------------
+**Équilibrage des Classes**
 
 Étant donné un déséquilibre des classes (une sous-représentation des blessures musculaires), une méthode de sur-échantillonnage a été appliquée à l'ensemble d'entraînement pour équilibrer les classes :
 
@@ -95,10 +95,10 @@ Grâce à cette technique, les données sont désormais équilibrées, ce qui am
 
 ---
 
-Données d'Images
+Données d'images
 ----------------
 
-### Organisation des Données
+**Organisation des Données**
 
 Les données d'images collectées ont été classées manuellement en 4 catégories correspondant aux types de blessures :
 - Lésion
@@ -119,7 +119,7 @@ Une fonction a été utilisée pour répartir automatiquement les données entre
 
 ---
 
-### Prétraitement et Génération des Données
+**Prétraitement et Génération des Données**
 
 Afin de préparer les données pour un réseau de neurones convolutif (CNN), les images ont été transformées comme suit :
 1. **Redimensionnement** : Toutes les images ont été redimensionnées à une taille uniforme de 150x150 pixels.

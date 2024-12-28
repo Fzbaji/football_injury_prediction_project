@@ -7,8 +7,8 @@ Football_injury_prediction documentation
 
 
 
-**Réalisé par :     BAJI Fatima Ezahra & BOURACHDI Aymane**
-
+Réalisé par :     BAJI Fatima Ezahra & BOURACHDI Aymane
+---------------------------------------------------------
 
 
 Cette documentation décrit le processus de développement d’un système de

@@ -66,6 +66,15 @@ Le projet utilise plusieurs bibliothèques Python pour le traitement des donnée
     from xgboost import XGBClassifier
     from sklearn.metrics import classification_report, accuracy_score, confusion_matrix, roc_auc_score, f1_score
 
+    # Importer les bibliothèques nécessaires pour le modèle CNN
+    import os
+    import shutil
+    import numpy as np
+    import tensorflow as tf
+    from tensorflow.keras.preprocessing.image import ImageDataGenerator
+    from tensorflow.keras import Sequential
+    from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+
 Avancement actuel 
 ------------------
 **Modèle tabulaire**
