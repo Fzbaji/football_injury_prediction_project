@@ -8,6 +8,4 @@ scikit-learn
 xgboost
 lightgbm
 catboost
-shutil
-os
 tensorflow 
