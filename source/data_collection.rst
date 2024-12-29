@@ -92,11 +92,11 @@ Données d'images
 Pour la deuxième partie du projet, visant la classification des types de blessures à partir d’images, un jeu de données d’images a été collecté manuellement. La collecte a été un défi majeur en raison des limitations suivantes :
 
 1. **Disponibilité des données** :
-   - Peu de bases de données publiques sur les blessures sportives sont disponibles, particulièrement celles avec des images classifiées selon des types de blessures spécifiques.
-   - Les images disponibles étaient souvent dispersées sur des sources limitées et non standardisées.
+      - Peu de bases de données publiques sur les blessures sportives sont disponibles, particulièrement celles avec des images classifiées selon des types de blessures spécifiques.
+      - Les images disponibles étaient souvent dispersées sur des sources limitées et non standardisées.
 
 2. **Manque de diversité et d’équilibre** :
-   - Certaines classes de blessures étaient sur-représentées, comme les lésions courantes, tandis que d'autres (ex. : *ACL*) étaient sous-représentées.
+      - Certaines classes de blessures étaient sur-représentées, comme les lésions courantes, tandis que d'autres (ex. : *ACL*) étaient sous-représentées.
 
 **Processus de Collecte**
 
@@ -115,13 +115,13 @@ Les images ont été collectées via des recherches manuelles et des bases médi
 Étant donné le volume limité d'images disponibles, en particulier pour les classes sous-représentées, des techniques d'augmentation d’images ont été employées :
 
 - **Méthodes utilisées** :
-  - Rotation
-  - Réflexion horizontale ou verticale
-  - Ajustement de la luminosité ou du contraste
-  - Décalages et transformations aléatoires
-  
+      - Rotation
+      - Réflexion horizontale ou verticale
+      - Ajustement de la luminosité ou du contraste
+      - Décalages et transformations aléatoires
+   
 - **Impact** :
-  Ces augmentations ont aidé à créer un jeu de données plus équilibré, bien que le volume de données demeure relativement faible pour un problème de classification d’images complexe.
+      Ces augmentations ont aidé à créer un jeu de données plus équilibré, bien que le volume de données demeure relativement faible pour un problème de classification d’images complexe.
 
 **Limitations**
 

@@ -84,8 +84,8 @@ L'image ci-dessous présente une comparaison en barres des précisions (Accuracy
 **Conclusion : Modèle Choisi**
 
 Après évaluation, le **modèle Random Forest** a été sélectionné comme modèle principal pour les raisons suivantes :
-- Il a obtenu la précision la plus élevée (70.85%).
-- Bien que son rappel pour la classe "blessure musculaire" (1) soit légèrement plus faible que celui des autres modèles, il montre un bon équilibre global en matière de classification.
+   - Il a obtenu la précision la plus élevée (70.85%).
+   - Bien que son rappel pour la classe "blessure musculaire" (1) soit légèrement plus faible que celui des autres modèles, il montre un bon équilibre global en matière de classification.
 
 Modèle CNN
 ------------

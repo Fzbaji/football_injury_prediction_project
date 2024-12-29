@@ -106,10 +106,10 @@ Dans un projet de classification d'images comme celui-ci, les CNN jouent un rôl
 
 Dans ce projet, nous avons conçu un CNN simple mais efficace, adapté aux besoins de la classification dans 4 catégories : Lesion, Hamstring, Entorse_Cheville et ACL.  
 L'architecture comprend :
-- **Couches convolutives** : Pour l'extraction de caractéristiques (32, 64, et 128 filtres successivement).
-- **Couches de pooling (MaxPooling2D)** : Pour la réduction de la taille des caractéristiques tout en préservant les informations pertinentes.
-- **Couches Fully Connected (Dense)** : Pour combiner les caractéristiques extraites et produire des prédictions.
-- **Dropout** : Pour régulariser le modèle et éviter le surapprentissage.
+   - **Couches convolutives** : Pour l'extraction de caractéristiques (32, 64, et 128 filtres successivement).
+   - **Couches de pooling (MaxPooling2D)** : Pour la réduction de la taille des caractéristiques tout en préservant les informations pertinentes.
+   - **Couches Fully Connected (Dense)** : Pour combiner les caractéristiques extraites et produire des prédictions.
+   - **Dropout** : Pour régulariser le modèle et éviter le surapprentissage.
 
 **Résumé du modèle** :
    1. Trois couches convolutives successives, chacune suivie d'une couche MaxPooling.
