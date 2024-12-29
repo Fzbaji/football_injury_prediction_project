@@ -115,8 +115,9 @@ L'architecture comprend :
    1. Trois couches convolutives successives, chacune suivie d'une couche MaxPooling.
    2. Une couche d'aplatissement (Flatten) pour transformer les caractéristiques extraites en un vecteur.
    3. Deux couches denses :
-         - 128 neurones activés par `relu`.
-         - Une couche de sortie avec 4 neurones activés par `softmax` (une pour chaque classe).
+   
+      - 128 neurones activés par `relu`.
+      - Une couche de sortie avec 4 neurones activés par `softmax` (une pour chaque classe).
 
 **Code de Construction du Modèle**
 
@@ -144,6 +145,7 @@ L'architecture comprend :
 Les données préparées (avec ImageDataGenerator) ont été utilisées pour entraîner le modèle. Le processus inclut :
 
    **Entraînement** : Ajustement des poids du modèle à l’aide des données d’entraînement.
+   
    **Validation** : Évaluation du modèle après chaque époque pour surveiller ses performances.
 
 .. code-block:: python
