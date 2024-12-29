@@ -101,33 +101,28 @@ Données d'images
 **Organisation des Données**
 
 Les données d'images collectées ont été classées manuellement en 4 catégories correspondant aux types de blessures :
-- Lésion
-- Hamstring
-- Entorse de cheville
-- Rupture du ligament croisé (ACL)
+    - Lésion
+    - Hamstring
+    - Entorse de cheville
+    - Rupture du ligament croisé (ACL)
 
 Les données d’images ont été divisées en trois ensembles pour garantir une évaluation rigoureuse des modèles :
-- **Ensemble d’entraînement** (70 % des images) : utilisé pour ajuster les paramètres du modèle.
-- **Ensemble de validation** (20 % des images) : utilisé pour affiner les hyperparamètres.
-- **Ensemble de test** (10 % des images) : réservé pour une évaluation finale après l’entraînement.
+    - **Ensemble d’entraînement** (70 % des images) : utilisé pour ajuster les paramètres du modèle.
+    - **Ensemble de validation** (20 % des images) : utilisé pour affiner les hyperparamètres.
+    - **Ensemble de test** (10 % des images) : réservé pour une évaluation finale après l’entraînement.
 
-Une fonction a été utilisée pour répartir automatiquement les données entre ces ensembles tout en respectant les classes d’origine :
 
-1. Parcourir les dossiers correspondant aux différentes classes.  
-2. Mélanger les images pour garantir une distribution aléatoire.
-3. Copier les images dans les sous-dossiers des ensembles d’entraînement, validation et test.
-
----
 
 **Prétraitement et Génération des Données**
 
 Afin de préparer les données pour un réseau de neurones convolutif (CNN), les images ont été transformées comme suit :
-1. **Redimensionnement** : Toutes les images ont été redimensionnées à une taille uniforme de 150x150 pixels.
-2. **Normalisation** : Les valeurs des pixels ont été mises à l’échelle dans l’intervalle [0, 1].
+    1. **Redimensionnement** : Toutes les images ont été redimensionnées à une taille uniforme de 150x150 pixels.
+    2. **Normalisation** : Les valeurs des pixels ont été mises à l’échelle dans l’intervalle [0, 1].
 
 Le chargement et le prétraitement des images ont été réalisés à l’aide de la classe `ImageDataGenerator`, qui applique ces transformations automatiquement pendant l’entraînement.
 
 Exemple de configuration pour l’entraînement et la validation :
+
 .. code-block:: python
 
     from tensorflow.keras.preprocessing.image import ImageDataGenerator

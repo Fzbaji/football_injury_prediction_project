@@ -11,9 +11,9 @@ Données tabulaires
 
 La disponibilité de jeux de données fiables est cruciale pour l’entraînement des modèles d’apprentissage automatique. Cependant, en travaillant avec des datasets réels, plusieurs biais et limitations ont été constatés :
 
-- Problèmes de qualité des données : certaines variables étaient mal renseignées ou manquantes.
-- Biais dans la population : les datasets réels présentaient un manque de représentativité de certaines tranches d’âge et niveaux d’entraînement.
-- Coût et accessibilité : certaines données provenant de bases de recherche sportive n’étaient pas accessibles ou étaient protégées par des restrictions légales.
+- **Problèmes de qualité des données** : certaines variables étaient mal renseignées ou manquantes.
+- **Biais dans la population** : les datasets réels présentaient un manque de représentativité de certaines tranches d’âge et niveaux d’entraînement.
+- **Coût et accessibilité** : certaines données provenant de bases de recherche sportive n’étaient pas accessibles ou étaient protégées par des restrictions légales.
 
 Pour pallier ces limitations, nous avons opté pour une approche de **génération de données synthétiques** basée sur des études et analyses fiables.
 
@@ -103,10 +103,10 @@ Pour la deuxième partie du projet, visant la classification des types de blessu
 Un effort manuel a été fait pour rassembler un ensemble d'images correspondant aux quatre classes identifiées dans le projet :
 
 - **Classes de blessures** :
-  0. Lésion
-  1. Hamstring : Blessure aux Ischio-jambiers
-  2. Entorse_Cheville
-  3. ACL : Rupture du ligament croisé antérieur
+   0. Lésion
+   1. Hamstring : Blessure aux Ischio-jambiers
+   2. Entorse_Cheville
+   3. ACL : Rupture du ligament croisé antérieur
 
 Les images ont été collectées via des recherches manuelles et des bases médicales disponibles en ligne, tout en veillant à préserver la conformité légale et éthique.
 
