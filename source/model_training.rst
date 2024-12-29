@@ -112,13 +112,14 @@ L'architecture comprend :
 - **Dropout** : Pour régulariser le modèle et éviter le surapprentissage.
 
 **Résumé du modèle** :
-1. Trois couches convolutives successives, chacune suivie d'une couche MaxPooling.
-2. Une couche d'aplatissement (Flatten) pour transformer les caractéristiques extraites en un vecteur.
-3. Deux couches denses :
-   - 128 neurones activés par `relu`.
-   - Une couche de sortie avec 4 neurones activés par `softmax` (une pour chaque classe).
+   1. Trois couches convolutives successives, chacune suivie d'une couche MaxPooling.
+   2. Une couche d'aplatissement (Flatten) pour transformer les caractéristiques extraites en un vecteur.
+   3. Deux couches denses :
+      - 128 neurones activés par `relu`.
+      - Une couche de sortie avec 4 neurones activés par `softmax` (une pour chaque classe).
 
 **Code de Construction du Modèle**
+
 .. code-block:: python
 
    from tensorflow.keras import Sequential
@@ -142,8 +143,8 @@ L'architecture comprend :
 
 Les données préparées (avec ImageDataGenerator) ont été utilisées pour entraîner le modèle. Le processus inclut :
 
-**Entraînement** : Ajustement des poids du modèle à l’aide des données d’entraînement.
-**Validation** : Évaluation du modèle après chaque époque pour surveiller ses performances.
+   **Entraînement** : Ajustement des poids du modèle à l’aide des données d’entraînement.
+   **Validation** : Évaluation du modèle après chaque époque pour surveiller ses performances.
 
 .. code-block:: python
    history = model.fit(

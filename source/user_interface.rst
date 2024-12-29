@@ -35,27 +35,27 @@ Fonctionnalités de l'Interface
 
 **Section 1 : Prédiction du Risque de Blessure (Données Tabulaires)**
 Cette section de l'interface permet aux utilisateurs de saisir des données concernant le joueur et de prédire le risque de blessure. Les informations demandées incluent :
-- **Minutes jouées**.
-- **Fatigue (%)**.
-- **Heures d’entraînement**.
-- **Âge**.
-- **Historique de blessures musculaires** (Oui/Non).
-- **Sans contact physique** (Oui/Non).
+    - **Minutes jouées**.
+    - **Fatigue (%)**.
+    - **Heures d’entraînement**.
+    - **Âge**.
+    - **Historique de blessures musculaires** (Oui/Non).
+    - **Sans contact physique** (Oui/Non).
 
 Les résultats incluent :
-- Une **prédiction binaire** : risque (1) ou pas de risque (0).
-- Les **probabilités associées** au risque et à l'absence de risque.
-- Un message intuitif :
-  - Rouge : Le joueur est à risque de blessure.
-  - Vert : Le joueur ne présente pas de risque immédiat.
+    - Une **prédiction binaire** : risque (1) ou pas de risque (0).
+    - Les **probabilités associées** au risque et à l'absence de risque.
+    - Un message intuitif :
+        - Rouge : Le joueur est à risque de blessure.
+        - Vert : Le joueur ne présente pas de risque immédiat.
 
 **Section 2 : Prédiction du Type de Blessure (Images)**
 Cette section utilise un modèle CNN pour identifier le type de blessure en téléchargeant une image. Les fonctionnalités incluent :
-- Téléchargement d’une image de la blessure (formats acceptés : JPG, PNG, JPEG).
-- Affichage des résultats :
-  - **Type de blessure**.
-  - **Gravité** (légère, moyenne, grave ou très grave).
-  - **Temps estimé de rétablissement**.
+    - Téléchargement d’une image de la blessure (formats acceptés : JPG, PNG, JPEG).
+    - Affichage des résultats :
+        - **Type de blessure**.
+        - **Gravité** (légère, moyenne, grave ou très grave).
+        - **Temps estimé de rétablissement**.
 
 ---
 
