@@ -115,8 +115,8 @@ L'architecture comprend :
    1. Trois couches convolutives successives, chacune suivie d'une couche MaxPooling.
    2. Une couche d'aplatissement (Flatten) pour transformer les caractéristiques extraites en un vecteur.
    3. Deux couches denses :
-      - 128 neurones activés par `relu`.
-      - Une couche de sortie avec 4 neurones activés par `softmax` (une pour chaque classe).
+         - 128 neurones activés par `relu`.
+         - Une couche de sortie avec 4 neurones activés par `softmax` (une pour chaque classe).
 
 **Code de Construction du Modèle**
 
